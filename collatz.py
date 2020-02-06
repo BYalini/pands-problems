@@ -3,12 +3,13 @@
 # At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. 
 # Have the program end if the current value is one.
 
-user_number = input("Enter any positive integer:")
-While user_number > 1: 
-    if user_number % 2 == 0:
-        user_number = user_number/2
+n = int(input("Please enter a positive integer: "))
+while n > 1: 
+    if n % 2 == 0:
+        n = n/2
     else:
-        user_number = (user_number * 3) + 1
-    print( user_number)
+        n = (n * 3) + 1
+    print([int(n)])
+
 
 
