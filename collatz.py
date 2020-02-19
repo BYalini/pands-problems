@@ -7,13 +7,13 @@
 # The program will stop if the current value is 1 
 # Ref:https://en.wikipedia.org/wiki/Collatz_conjecture
 
-
 n = int(input("Please enter a positive integer: "))
 
 if n < 1:
     print("Please try again with a positive integer greater than 1")
 else :
     print(n, end = " ")  
+
 while n > 1:  
     if n % 2 == 0: 
         n = n/2
