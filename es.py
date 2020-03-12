@@ -1,9 +1,8 @@
 # A python script to read in a text file and outputs the number of e's it contains
 
+# Ref : https://realpython.com/python-command-line-arguments/
 # import interal python module sys to access system argument(s)
 import sys 
-
-# print(sys.argv)
 
 # only runs if one argument is passed with script name (i.e filename to count 'e' s in)
 if len(sys.argv)  == 2 :
@@ -13,11 +12,9 @@ if len(sys.argv)  == 2 :
     
     # define letter to count the occurrence
     letter = 'e'
-    
     total = 0
     
     #open file with context manager 
-    
     with open(file_name,'r') as file:
         # loop through each line in the file
         for line in file : 
@@ -28,8 +25,5 @@ if len(sys.argv)  == 2 :
     print(total)
 
 
-# Ref : https://realpython.com/python-command-line-arguments/
-#import sys
-#print(f"Name of the script      : {sys.argv[0]=}")
-#print(f"Arguments of the script : {sys.argv[1:]=}")
+
 
