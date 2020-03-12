@@ -15,7 +15,7 @@ run squreroot.py
 
 Es Exercise
 run es.py followed by the name of the flat file to count the letter 'e'
-There is a file caled moby-dict.txt in the repository. To count 'e's in this file run 
-"python es.py moby-dict.txt' 
+There is a file caled moby-dict.txt in the repository. To count 'e's in this file type
+"python es.py moby-dict.txt" in command prompt
 
 
