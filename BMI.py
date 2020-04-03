@@ -7,6 +7,5 @@ Height = float(input("Enter Height in cm :"))
 # The formula for BMI is weight in kilograms divided by height in meters squared
 BMI = Weight / ((Height/100) ** 2)
 
-
 print ("BMI is", round(BMI,2))
 
