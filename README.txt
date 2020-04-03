@@ -11,7 +11,7 @@ Weekday Exercise
 run weekday.py
 
 Squareroot Exercise
-run squreroot.py 
+run squareroot.py 
 
 Es Exercise
 run es.py followed by the name of the flat file to count the letter 'e'
